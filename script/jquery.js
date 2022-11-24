@@ -133,57 +133,88 @@ $(document).ready(function(){
 
      
 
-
+      const modal1 = `
+      <div class="background">
+        <div class="modal">
+          <div class="modal_title">
+            <h2>CGV 웹사이트</h2>
+            <p> 2022.10 ~ 2022.11 | UI/UX DESIGN</p>
+          </div>
+          <img src="./img/cgvmodal.png">
+        </div>
+      </div>
+      `
    
-    //   const modal2 = `
-    //   <div class="background">
-    //     <div class="modal">
-    //       <div class="modal_title">
-    //         <h2>끌레도르 웹사이트</h2>
-    //         <p> 2022.09.13 ~ 2022.10.24 | UI/UX DESIGN</p>
-    //       </div>
-    //       <img src="./img/cledormodal.png">
-    //     </div>
-    //   </div>
-    //   `
-    //   const modal3 = `
-    //   <div class="background">
-    //   <div class="modal">
-    //     <div class="modal_title">
-    //       <h2>헤로피커피 웹사이트</h2>
-    //       <p> 2022.09.27 ~ 2022.10.20 | UI/UX DESIGN</p>
-    //     </div>
-    //     <img src="./img/heropymodal.png">
-    //   </div>
-    // </div>
-    //   `
+      const modal2 = `
+      <div class="background">
+        <div class="modal">
+          <div class="modal_title">
+            <h2>끌레도르 웹사이트</h2>
+            <p> 2022.09.13 ~ 2022.10.24 | UI/UX DESIGN</p>
+          </div>
+          <img src="./img/cledormodal.png">
+        </div>
+      </div>
+      `
+      const modal3 = `
+      <div class="background">
+      <div class="modal">
+        <div class="modal_title">
+          <h2>헤로피커피 웹사이트</h2>
+          <p> 2022.09.27 ~ 2022.10.20 | UI/UX DESIGN</p>
+        </div>
+        <img src="./img/heropymodal.png">
+      </div>
+    </div>
+      `
     
-    //   const modal4 =`
-    //   <div class="background">
-    //   <div class="modal">
-    //     <div class="modal_title">
-    //       <h2>졸업전시회 릴영상</h2>
-    //       <p> 2022.10.30 ~ 2022.11.04 | MY REEL VIDEO</p>
-    //     </div>
-    //     <img src="./img/panel.jpg">
-    //   </div>
-    // </div>
-    //   `
+      const modal4 =`
+      <div class="background">
+      <div class="modal">
+        <div class="modal_title">
+          <h2>졸업전시회 릴영상</h2>
+          <p> 2022.10.30 ~ 2022.11.04 | MY REEL VIDEO</p>
+        </div>
+        <img src="./img/panel.jpg">
+      </div>
+    </div>
+`
 
-      $(".port1").on("click", function(){
-        $("body").prepend(modal1)
+ let num = $(".shadow");
 
-      })
+  const mo = [modal1, modal2, modal3, modal4]
    
 
 
-  $(".background").on("click",function(){
-    // $("body").remove("background")
-  alert('djdjddj')
+$(num).on("click", function(){
+  var $ili = $(".shadow").index(this); 
+
+
+  console.log($ili+1)
+  console.log(mo[$ili])
+ 
+ 
+  $("body").prepend(mo[$ili])
+  
+});
+
+
+
+
+// function index(){
+// $(num).on("click", function(){
+//   $(num).index().length
+// console.log(index)
+// })
+// }
+
+
+    $(document).mouseup(function (e){
+      if($(".background").has(e.target).length === 0){
+        $(".background").remove();
+      }
+    });
+
+
+
 })
-
-
-
-
-
-)}
