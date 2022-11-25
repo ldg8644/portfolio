@@ -188,7 +188,7 @@ const modal5 =`
       <div class="background">
       <div class="modal">
         <div class="modal_title">
-          <h2>SSUNI 커피 사이트</h2>
+          <h2>SSUNI 커피 사이트</h2>  
           <p> 2022.09.11 ~ 2022.09.20 | UI/UX DESIGN</p>
         </div>
         <img src="./img/ssunimodal.png">
@@ -215,7 +215,7 @@ const modal6 =`
 
 
 $(num).on("click", function(){
-  var $ili = $(".shadow").index(this); 
+  let $ili = $(".shadow").index(this); 
 
 
   console.log($ili+1)
