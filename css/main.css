@@ -96,7 +96,7 @@ left: 10px;
 
     content: "";
     width: 0px;
-    bottom: 10px;
+    bottom: -15px;
     height: 85px;
     background-color: rgba(255, 241, 38, 0.74);
 transition: .3s;
@@ -104,7 +104,7 @@ transition: .3s;
 
 }
 .video_title:hover::after{
-    width: 830px;transform-origin: center;
+    width: 830px;transform-origin: left;
 transform: scaleX(100%);
 }
 
@@ -228,13 +228,13 @@ font-size: 30px;
     width: 0px;
     bottom: -5px;
     height: 20px;
-    background-color: #ffee51;
+    background-color: #ffee51;transform-origin: left;
 transition: .3s;
 
 }
 .about .inner h2:hover::after{
     width: 100px;
-transform: scaleX(100%);
+transform: scaleX(100%);transform-origin: left;
 }
 
 
@@ -545,27 +545,28 @@ position: relative;
     left: 50%;
     transform: translateX(-50%);
 text-align: center;
-font-size: 30px;
+font-size: 30px;transform-origin: left;
 }
 
 
 .portfolio .inner h2::after{    
     z-index: -50;
- left: 0;
+ left: 2;
  right: 0;
     position: absolute;
 
     content: "";
     width: 0px;
-    bottom: 0px;
-    height: 20px;
+    bottom: -5px;
+    height: 17px;
     background-color: #ffee51;
 transition: .3s;
+transform-origin: left;
 
 }
 .portfolio .inner h2:hover::after{
     width: 167px;
-transform: scaleX(100%);
+transform: scaleX(100%);transform-origin: left;
 }
 
 #video3{
@@ -732,7 +733,7 @@ text-align: center;
     color: #333;
     font-size: 30px;   
 margin: 50px 0px;
-display: inline-block;
+display: inline-block;transform-origin: left;
 
 }
 
@@ -744,14 +745,14 @@ display: inline-block;
 
     content: "";
     width: 0px;
-    bottom: 0px;
-    height: 20px;
+    bottom: -5px;transform-origin: left;
+    height: 17px;
     background-color: #ffee51;
 transition: .3s;
 
 }
 .address h2:hover::after{
-    width: 137px;
+    width: 137px;transform-origin: left;
 transform: scaleX(100%);
 }
 .address p{color: #333;
