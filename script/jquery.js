@@ -141,6 +141,7 @@ $(document).ready(function(){
             <p> 2022.10 ~ 2022.11 | UI/UX DESIGN</p>
           </div>
           <img src="./img/cgvmodal.png">
+          <a href="https://ldg8644.github.io/CGV/"><i class='far fa-window-restore'></i>CGV 웹사이트 바로가기</a>
         </div>
       </div>
       `
@@ -153,6 +154,7 @@ $(document).ready(function(){
             <p> 2022.09.13 ~ 2022.10.24 | UI/UX DESIGN</p>
           </div>
           <img src="./img/cledormodal.png">
+          <a href="https://ldg8644.github.io/cledor/"><i class='far fa-window-restore'></i>끌레도르 웹사이트 바로가기</a>
         </div>
       </div>
       `
@@ -164,6 +166,7 @@ $(document).ready(function(){
           <p> 2022.09.27 ~ 2022.10.20 | UI/UX DESIGN</p>
         </div>
         <img src="./img/heropymodal.png">
+        <a href="https://ldg8644.github.io/heropy-coffee/"><i class='far fa-window-restore'></i>헤로피커피 웹사이트 바로가기</a>
       </div>
     </div>
       `
@@ -172,17 +175,42 @@ $(document).ready(function(){
       <div class="background">
       <div class="modal">
         <div class="modal_title">
-          <h2>졸업전시회 릴영상</h2>
-          <p> 2022.10.30 ~ 2022.11.04 | MY REEL VIDEO</p>
+          <h2>마켓컬리 웹사이트</h2>
+          <p> 2022.11.10 ~ 2022.11.14 | UI/UX DESIGN</p>
         </div>
-        <img src="./img/panel.jpg">
+        <img src="./img/kullymodal.png">
+        <a href="https://ldg8644.github.io/kully/"><i class='far fa-window-restore'></i>마켓컬리 웹사이트 바로가기</a>
       </div>
     </div>
 `
 
+const modal5 =`
+      <div class="background">
+      <div class="modal">
+        <div class="modal_title">
+          <h2>SSUNI 커피 사이트</h2>
+          <p> 2022.09.11 ~ 2022.09.20 | UI/UX DESIGN</p>
+        </div>
+        <img src="./img/ssunimodal.png">
+        <a href="https://ldg8644.github.io/SSUNI/index.html"><i class='far fa-window-restore'></i>쑤니커피 웹사이트 바로가기</a>
+      </div>
+    </div>
+`
+const modal6 =`
+      <div class="background">
+      <div class="modal">
+        <div class="modal_title">
+          <h2>졸업전시회 릴영상</h2>
+          <p> 2022.10.30 ~ 2022.11.04 | MY REEL VIDEO</p>
+        </div>
+        <img src="./img/panel.jpg">
+        <video controls><source src="./video/reelvideo.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+`
  let num = $(".shadow");
 
-  const mo = [modal1, modal2, modal3, modal4]
+  const mo = [modal1, modal2, modal3, modal4, modal5, modal6]
    
 
 
@@ -214,6 +242,18 @@ $(num).on("click", function(){
         $(".background").remove();
       }
     });
+
+
+
+
+    $(document).ready(function($) {
+
+      $(".scroll_move").click(function(event){         
+              event.preventDefault();
+              $('html').animate({scrollTop : offset.top}, 400);
+      });
+
+});
 
 
 

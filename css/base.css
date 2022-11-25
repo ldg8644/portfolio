@@ -1,11 +1,19 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&family=PT+Serif:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body{
     color: #333;
     font-size: 16px;
     overflow-x: hidden;
     font-family: 'Noto Sans KR' !important;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 a{text-decoration: none;
 color: #333;
