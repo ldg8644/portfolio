@@ -188,11 +188,11 @@ const modal5 =`
       <div class="background">
       <div class="modal">
         <div class="modal_title">
-          <h2>SSUNI 커피 사이트</h2>  
-          <p> 2022.09.11 ~ 2022.09.20 | UI/UX DESIGN</p>
+          <h2>TV program</h2>  
+          <p> 2022.12.02 ~ 2022.12.08 | Video Edit</p>
         </div>
-        <img src="./img/ssunimodal.png">
-        <a href="https://ldg8644.github.io/SSUNI/index.html"><i class='far fa-window-restore'></i>쑤니커피 웹사이트 바로가기</a>
+        <img src="./img/tvmodal.png">
+        <video controls><source src="./video/tvprogram.mp4" type="video/mp4"></video>
       </div>
     </div>
 `
