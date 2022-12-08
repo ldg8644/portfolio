@@ -362,7 +362,7 @@ padding-bottom: 20px;
 }
 
 .profile_txt{
-    margin:8px 0px;
+    margin:2px 0px;
     font-size: 17px;
     line-height: 28px;
 }
@@ -633,7 +633,7 @@ background-position: center;
     background-size: cover;
 }
 .port_list li:nth-child(5) .img_wrapper{
-    background-image: url(../img/ssuni.jpg);
+    background-image: url(../img/tv.png);
 
     background-size: cover;
 }

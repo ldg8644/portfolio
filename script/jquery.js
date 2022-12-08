@@ -188,7 +188,7 @@ const modal5 =`
       <div class="background">
       <div class="modal">
         <div class="modal_title">
-          <h2>TV program</h2>  
+          <h2>TV 프로그램 인트로</h2>  
           <p> 2022.12.02 ~ 2022.12.08 | Video Edit</p>
         </div>
         <img src="./img/tvmodal.png">
