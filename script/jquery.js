@@ -166,7 +166,7 @@ $(document).ready(function(){
           <p> 2022.07.05 ~ 2022.07.21 | Video Edit</p>
         </div>
         <img src="./img/3dmodal.png">
-        <video controls><source src="./video/3DModeling.mp4" type="video/mp4"></video>
+        <video controls><source src="./video/3dmodeling.mp4" type="video/mp4"></video>
       </div>
     </div>
       `
