@@ -150,11 +150,11 @@ $(document).ready(function(){
       <div class="background">
         <div class="modal">
           <div class="modal_title">
-            <h2>끌레도르 웹사이트</h2>
-            <p> 2022.09.13 ~ 2022.10.24 | UI/UX DESIGN</p>
+            <h2>메타버스란?</h2>
+            <p> 2022.06.13 ~ 2022.08.31 | Video Edit</p>
           </div>
-          <img src="./img/cledormodal.png">
-          <a href="https://ldg8644.github.io/cledor/"><i class='far fa-window-restore'></i>끌레도르 웹사이트 바로가기</a>
+          <img src="./img/metaversemodal.png">
+          <video controls><source src="./video/metaverse.mp4" type="video/mp4"></video>
         </div>
       </div>
       `
@@ -162,11 +162,11 @@ $(document).ready(function(){
       <div class="background">
       <div class="modal">
         <div class="modal_title">
-          <h2>헤로피커피 웹사이트</h2>
-          <p> 2022.09.27 ~ 2022.10.20 | UI/UX DESIGN</p>
+          <h2>3D Modeling</h2>
+          <p> 2022.07.05 ~ 2022.07.21 | Video Edit</p>
         </div>
-        <img src="./img/heropymodal.png">
-        <a href="https://ldg8644.github.io/heropy-coffee/"><i class='far fa-window-restore'></i>헤로피커피 웹사이트 바로가기</a>
+        <img src="./img/3dmodal.png">
+        <video controls><source src="./video/3DModeling.mp4" type="video/mp4"></video>
       </div>
     </div>
       `
@@ -175,11 +175,11 @@ $(document).ready(function(){
       <div class="background">
       <div class="modal">
         <div class="modal_title">
-          <h2>마켓컬리 웹사이트</h2>
-          <p> 2022.11.10 ~ 2022.11.14 | UI/UX DESIGN</p>
+          <h2>문화안전공모전</h2>
+          <p> 2021.12.20 ~ 2021.12.25 | Video Edit</p>
         </div>
-        <img src="./img/kullymodal.png">
-        <a href="https://ldg8644.github.io/kully/"><i class='far fa-window-restore'></i>마켓컬리 웹사이트 바로가기</a>
+        <img src="./img/culturemodal.png">
+        <video controls><source src="./video/culture.mp4" type="video/mp4"></video>
       </div>
     </div>
 `
